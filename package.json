@@ -20,8 +20,13 @@
   },
   "dependencies": {
     "@material/button": "^0.43.0",
+    "@material/drawer": "^0.43.0",
+    "@material/elevation": "^0.43.0",
+    "@material/image-list": "^0.43.0",
+    "@material/list": "^0.43.0",
     "@material/ripple": "^0.43.0",
     "@material/textfield": "^0.43.0",
+    "@material/typography": "^0.43.0",
     "material-components-web": "^0.43.0"
   }
 }
