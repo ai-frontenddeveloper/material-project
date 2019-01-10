@@ -1,4 +1,3 @@
-@import "./variables";
 @import "./common";
 @import "@material/textfield/mdc-text-field";
 @import "@material/button/mdc-button";
@@ -10,7 +9,8 @@
 }
 
 .cancel {
-  @include mdc-button-ink-color(on-primary);
+  // @include mdc-button-ink-color(on-primary);
+  @include mdc-button-ink-color(on-surface);
 }
 
 .header {
@@ -23,17 +23,23 @@
   padding-top: 80px;
   fill: currentColor;
 }
+// .username,
+// .password {
+//   display: block;
+//   width: 300px;
+//   margin: 20px auto;
+//   &:not(.mdc-text-field--invalid) {
+//     @include mdc-text-field-label-color(on-primary);
+//   }
+//   &.mdc-text-field--focused:not(.mdc-text-field--invalid)  {
+//     @include mdc-text-field-label-color(on-primary);
+//   }
+// }
 .username,
 .password {
   display: block;
   width: 300px;
   margin: 20px auto;
-  &:not(.mdc-text-field--invalid) {
-    @include mdc-text-field-label-color(on-primary);
-  }
-  &.mdc-text-field--focused:not(.mdc-text-field--invalid)  {
-    @include mdc-text-field-label-color(on-primary);
-  }
 }
 .button-container {
   display: flex;
